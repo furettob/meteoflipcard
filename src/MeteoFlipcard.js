@@ -8,8 +8,6 @@ import useGeolocationStatus from './useGeo'
 function MeteoFlipcard() {
 	const geolocation = useGeolocationStatus()
 
-	console.log("GEOO: ", geolocation)
-
 	return (
 	    <Flipcard>
       		<div>

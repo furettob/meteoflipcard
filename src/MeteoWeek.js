@@ -52,10 +52,7 @@ class MeteoWeek extends Component {
 
 		    const weatherbitParams = {
 		        method: "get",
-		        url: url,
-		        headers: {
-		            "Content-Type": "application/json"
-		        }
+		        url: url
 		    }
 
 		    let weatherbitReturn = await axios(weatherbitParams)
